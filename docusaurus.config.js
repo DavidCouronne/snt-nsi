@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Sciences Numériques',
   tagline: 'SNT et NSI au lycée',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://snt-nsi.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
