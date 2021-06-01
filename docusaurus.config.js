@@ -11,7 +11,9 @@ module.exports = {
     algolia: {
       apiKey: "c111e984a7180d44d4dc3efb46942a43",
       indexName: "netlify_190b9a3d-137d-43e3-940d-54cf599d05ae_main_all",
-
+      siteId: '190b9a3d-137d-43e3-940d-54cf599d05ae',
+      branch: 'main',
+      selector: 'div#search',
     },
     navbar: {
       title: "Sciences Numériques",
