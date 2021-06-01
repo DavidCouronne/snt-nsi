@@ -12,16 +12,6 @@ module.exports = {
       apiKey: "c111e984a7180d44d4dc3efb46942a43",
       indexName: "netlify_190b9a3d-137d-43e3-940d-54cf599d05ae_main_all",
 
-      // // Optional: see doc section below
-      // contextualSearch: true,
-
-      // Optional: see doc section below
-      appId: "DG0XWI2JM3",
-
-      // Optional: Algolia search parameters
-      searchParameters: {},
-
-      //... other Algolia params
     },
     navbar: {
       title: "Sciences Numériques",
