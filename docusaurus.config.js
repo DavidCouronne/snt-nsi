@@ -8,6 +8,21 @@ module.exports = {
   organizationName: 'Lycée de Cornouaille', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: 'c6aeabe5e5a48c9f29f85b8558b68040',
+      indexName: 'netlify_190b9a3d-137d-43e3-940d-54cf599d05ae_main_all',
+  
+      // // Optional: see doc section below
+      // contextualSearch: true,
+  
+      // Optional: see doc section below
+      appId: 'DG0XWI2JM3',
+  
+      // Optional: Algolia search parameters
+      searchParameters: {},
+  
+      //... other Algolia params
+    },
     navbar: {
       title: 'Sciences Numériques',
       logo: {
@@ -79,9 +94,11 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
   },
+  
   presets: [
     [
       '@docusaurus/preset-classic',
+      
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
